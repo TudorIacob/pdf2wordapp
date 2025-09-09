@@ -11,7 +11,7 @@ def pdf_to_word(pdf_file, output_path):
 def main():
     st.set_page_config(page_title="PDF to Word Converter", page_icon="📄")
     st.title("📄 PDF to Word ")
-    st.write(" Alege fisierul 'drag and drop' fisierului.")
+    st.write(" Alege fisierul sau 'drag and drop'.")
 
     uploaded_file = st.file_uploader("Alege fisierul", type=["pdf"])
 
@@ -45,3 +45,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
